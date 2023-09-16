@@ -1,0 +1,19 @@
+
+Tekijä: Tiina Ylimäki
+
+ Kolmioita on kolmenlaisia: tasakylkisiä, tasasivuisia ja epäsäännöllisiä. 
+ Aloitin tehtävän sillä, että tein yhden testin per kolmio.
+ Tasakylkisen kolmion määrittelyssä kuitenkin sanotaan, että kolmio on tasakylkinen kun kaksi sivua on yhtä pitkät. 
+Kolmiossa on kolme sivua, joten tein kyseiselle kolmiolle vielä kaksi testiä lisää (sivut a ja b ovat yhtä pitkät, b ja c sekä a ja c).
+ Tein testin myös siihen, jos annetaan negatiivisia numeroita. Minun logiikkani mukaan kolmiota ei voi muodostaa mikäli yksikään sivuista on negatiivinen.
+ Luettuani materiaalin läpi, tein kolme testiä testaamaan sitä onko kolmio oikeasti kolmio.
+ Testaus tapahtuu siten, että mikäli sivut a ja c ovat yhteenlaskettuna suurempia kuin sivu b, ei kolmiota voida muodostaa. Sama pätee myös siihen, että sivut c ja b ovat yhteenlaskettuna
+suurempia kuin sivu a sekä sivut a ja b yhteenlaskettuna ovat suurempia kuin sivu c.
+ En ensin ajatellut tehdä kyseisiä testejä. Yksinkertaisena ihmisenä pohdin, että miksi kukaan tekisi tahallaan epäpätevän kolmion, jos tarkoitus on kuitenkin testata kolmion tekemistä.
+Tätä varten testaus on kuitenkin olemassa. Kaikki asiat tulee ottaa huomioon. Vaikka itse olenkin yksinkertainen ihminen, on olemassa ihmisiä, jotka testaisivat ihan piruuttaan hyvin epätodennäköisiä kolmioita.
+Ilman noita testejä ne hirviömäiset kolmiot menisivät läpi ja meikäläinen olisi pulassa tehtyään huonot testit.
+ Testien käytettävyyttä laskee se, että olen kirjoittanut kaiken suomeksi enkä englanniksi. Näin ollen tekemiäni testejä voivat käyttää pelkästään suomenkieliset.
+Vastaukset kirjoitin omalla murteellani, joten myös suomenkielisten parissa saattaa olla ongelmia ymmärtää mitä olen kirjoittanut.
+ Uskon myös, että etevä koodari saisi rikottua tekeleeni hetkessä. En ole vielä kokenut koodin kirjoittaja, mutta näiden rikkomisien kautta oppii paitsi rikkoja
+niin myös kirjoittaja. Minulla ei myöskään ole samanlaista silmää koodille mitä kokeneilla konkareilla on.
+ Testejä on siis yhteensä 9 ja kaltaiselleni koodin naputtajalle sanoisin niiden kattavam hyvin kolmioiden testaamisen.
